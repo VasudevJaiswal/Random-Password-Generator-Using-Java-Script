@@ -8,6 +8,12 @@
     backgroun: url("jspic.jpg");
     font-family:"Raleway",sans-serif;
   }
+h1{
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+  }
+    
   h1:hover{
       color: green;
       border: 2px solid white;
