@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<!--Code By Vasudev Jaiswal ( https://vasudevjaiswal.com )-->
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>JavaScript Password Generate</title>
+  <!-- <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'> -->
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Kanit:300,500,700'>
+<link rel="stylesheet" href="css/style.css>
+<!-- <!-- <link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/font-awesome.min.css">
+<link rel="stylesheet" href="css/imagehover.min.css"> -->
+<link rel="stylesheet" href="style.css"> -->
+</head>
+<body>
+    <h1 style="color:white;">Random Password Generator App</h1>
+   
+  <div class="password-generator">
+    <div class="head">
+      <div class="title">
+        Password
+      </div>
+      <div class="password">
+        
+      </div>
+    </div>
+    <div class="length">
+      <div class="title">
+        Length: <span>10</span>
+      </div>
+      <div class="input">
+        <input type="range" id="password-length" min="8" max="20" value="10">
+      </div>
+    </div>
+    <div class="settings">
+      <div class="title">
+        Settings
+      </div>
+      <div class="list">
+        <div class="item">
+          <input type="checkbox" id="setting-number">
+          <label for="setting-number">Number</label>
+        </div>
+        <div class="item">
+          <input type="checkbox" id="setting-specialchar">
+          <label for="setting-specialchar">Special Characters</label>
+        </div>
+      </div>
+    </div>
+    <button id="generate-password">Generate Password</button>
+  </div>
+  
+  <script src='https://cdn.jsdelivr.net/npm/clipboard@1/dist/clipboard.min.js'></script>
+  <script  src="scritpt.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/custom.js"></script>
+  <script src="js/jquery.easing.min.js"></script>
+  <script src="js/jquery.min.js"></script>
+  
+  
+  <div class="intro">
+      <a href="https://vasudevjaiswal.com">
+      <h1>This code written by Vasudev Jaiswal </h1></a>
+  </div>
+</body>
+</html>
